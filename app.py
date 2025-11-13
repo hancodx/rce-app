@@ -143,6 +143,6 @@ def logout():
 
 if __name__ == '__main__':
     if not os.path.exists('database.db'):
-        print("Exécutez d'abord: python database.py")
+        print("excute: python database.py")
         exit(1)
     app.run(host='0.0.0.0', port=5000, debug=True)
