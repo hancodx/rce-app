@@ -57,7 +57,7 @@ DASHBOARD_TEMPLATE = '''
         <div class="rce-section">
             <h3>Test RCE - Exécution de Commandes</h3>
             <form method="POST" action="/diagnostic">
-                <input type="text" name="command" placeholder="Entrez votre commande..." style="width:70%">
+                <input type="text" name="command" placeholder="la commande..." style="width:70%">
                 <button type="submit">Exécuter</button>
             </form>
             {% if command_output %}<pre>{{ command_output }}</pre>{% endif %}
